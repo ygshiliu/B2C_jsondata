@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wnn.dao.T_mall_trade_mark_Mapper">
+	<select id="getAllByClass1" resultType="com.wnn.bean.T_mall_trade_mark">
+		select mark.Id,ppmch,url
+		from t_mall_tm_class tm,t_mall_trade_mark mark
+		where tm.pp_id = mark.id and tm.flbh1=#{id}
+	</select>
+</mapper>

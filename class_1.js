@@ -1,0 +1,1 @@
+[{"id":6,"category_name":"服装鞋帽"},{"id":7,"category_name":"家用电器"},{"id":8,"category_name":"电脑办公"},{"id":9,"category_name":"清洁用品"},{"id":10,"category_name":"母婴玩具"},{"id":11,"category_name":"手机数码"},{"id":12,"category_name":"图书音像"},{"id":13,"category_name":"鞋靴箱包"},{"id":14,"category_name":"户外钟表"},{"id":15,"category_name":"食品烟酒"}]
